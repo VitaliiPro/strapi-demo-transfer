@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_cost_comparison_items_cost_comparisons",
+  "info": {
+    "displayName": "Items Cost Comparison"
+  },
+  "options": {},
+  "attributes": {
+    "company_name": {
+      "type": "text"
+    },
+    "bar_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "year": {
+      "type": "biginteger"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "recovery": {
+      "type": "biginteger"
+    },
+    "data": {
+      "type": "biginteger"
+    }
+  }
+}

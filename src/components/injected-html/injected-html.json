@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_injected_html_injected_html_s",
+  "info": {
+    "displayName": "Injected Html "
+  },
+  "options": {},
+  "attributes": {
+    "html": {
+      "type": "richtext"
+    }
+  }
+}

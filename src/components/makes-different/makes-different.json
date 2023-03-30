@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_makes_different_makes_differents",
+  "info": {
+    "displayName": "What Makes Us Different",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Makes Different",
+      "type": "component",
+      "repeatable": true,
+      "component": "makes-different.items-makes-different"
+    }
+  }
+}

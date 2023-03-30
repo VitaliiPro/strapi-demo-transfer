@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_benefits_benefits",
+  "info": {
+    "displayName": "Benefits",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "heading_align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center"
+      ]
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "Dark",
+        "Blue"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benefits.items-benefits"
+    }
+  }
+}

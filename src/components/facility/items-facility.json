@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_facility_items_facilities",
+  "info": {
+    "displayName": "Items Facility"
+  },
+  "options": {},
+  "attributes": {
+    "technology": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_map_maps",
+  "info": {
+    "displayName": "Map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "data": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::location-data.location-data"
+    }
+  }
+}

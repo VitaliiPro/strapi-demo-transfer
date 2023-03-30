@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_makes_different_items_makes_differents",
+  "info": {
+    "displayName": "Items Makes Different"
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "richtext"
+    },
+    "azure": {
+      "type": "richtext"
+    },
+    "aws": {
+      "type": "richtext"
+    },
+    "ubx": {
+      "type": "richtext"
+    }
+  }
+}

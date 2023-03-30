@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plural_awards",
+  "info": {
+    "singularName": "awards",
+    "pluralName": "plural-awards",
+    "displayName": "Awards",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "awards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "award.award"
+    }
+  }
+}

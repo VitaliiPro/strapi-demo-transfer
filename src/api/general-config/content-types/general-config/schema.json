@@ -1,0 +1,75 @@
+{
+  "kind": "singleType",
+  "collectionName": "general_configs",
+  "info": {
+    "singularName": "general-config",
+    "pluralName": "general-configs",
+    "displayName": "General Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_name": {
+      "type": "string"
+    },
+    "legal_brand_name": {
+      "type": "richtext"
+    },
+    "cage_code": {
+      "type": "richtext"
+    },
+    "cookie_text": {
+      "type": "richtext"
+    },
+    "logo_header": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo_footer": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "contacts": {
+      "displayName": "Contacts",
+      "type": "component",
+      "repeatable": false,
+      "component": "general-config.contacts"
+    },
+    "social_media": {
+      "displayName": "Social Media",
+      "type": "component",
+      "repeatable": true,
+      "component": "general-config.social-media"
+    },
+    "profile_url": {
+      "type": "richtext"
+    },
+    "navbar_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar-links.navbar-links"
+    }
+  }
+}

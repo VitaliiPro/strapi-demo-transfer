@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_large_image_with_text_image_with_text_constraineds",
+  "info": {
+    "displayName": "Large Image With Text Constrained Image Text Align Left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

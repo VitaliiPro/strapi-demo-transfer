@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_client_testimony_client_testimonies",
+  "info": {
+    "displayName": "Client Testimony",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "items": {
+      "displayName": "Items Client Testimony",
+      "type": "component",
+      "repeatable": true,
+      "component": "client-testimony.items-client-testimony"
+    }
+  }
+}

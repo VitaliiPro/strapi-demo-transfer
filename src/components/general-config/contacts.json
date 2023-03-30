@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_general_config_contacts",
+  "info": {
+    "displayName": "Contacts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "email_address": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "richtext"
+    }
+  }
+}

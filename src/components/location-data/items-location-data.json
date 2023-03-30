@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_location_data_items_location_data",
+  "info": {
+    "displayName": "Items Location Data"
+  },
+  "options": {},
+  "attributes": {
+    "city": {
+      "type": "richtext"
+    },
+    "country": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Private Cloud",
+        "CDN",
+        "SOC 24*7"
+      ]
+    },
+    "s3_storage": {
+      "type": "boolean"
+    },
+    "anycast_dns": {
+      "type": "boolean"
+    },
+    "office": {
+      "type": "boolean"
+    },
+    "geo_point": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geo-point.geo-point"
+    }
+  }
+}

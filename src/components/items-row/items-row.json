@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_items_row_items_rows",
+  "info": {
+    "displayName": "Items Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "full_width": {
+      "type": "boolean"
+    },
+    "items": {
+      "displayName": "Items Row",
+      "type": "component",
+      "repeatable": true,
+      "component": "items-row.items-items-row"
+    }
+  }
+}

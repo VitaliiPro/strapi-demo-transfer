@@ -1,0 +1,98 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_uses",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uses",
+    "displayName": "Contact Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "uid": {
+      "type": "uid",
+      "default": "contact-us",
+      "required": true
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "about.about",
+        "advantages.advantages-image-large",
+        "advantages.advantages-image-left",
+        "advantages.advantages-two-column",
+        "advantages.advantages",
+        "award.plural-awards",
+        "backup-calculator.backup-calculator",
+        "award.award",
+        "benefits.benefits",
+        "bordered-image.bordered-image",
+        "call-to-action.call-to-action-align-right",
+        "call-to-action.call-to-action-full-width",
+        "call-to-action.call-to-action-two-backgrounds",
+        "call-to-action.call-to-action-with-images",
+        "call-to-action.call-to-action",
+        "cost-comparison.cost-comparison",
+        "client-testimony.client-testimony",
+        "carousel.carousel",
+        "carousel.carousel-without-card",
+        "feature-description.description-bordered-background",
+        "feature-description.description-list",
+        "feature-description.feature-description",
+        "description.description",
+        "features.features",
+        "facility.facility",
+        "facility.facility-partnership",
+        "spaces.spaces",
+        "horizontal-cards.horizontal-cards",
+        "image-and-list.image-and-list",
+        "image-slider.image-slider",
+        "job-openings.job-openings",
+        "items-row.items-row",
+        "injected-html.injected-html",
+        "injected-html.injected-html-jot-form",
+        "navbar-links.navbar-links",
+        "location-data.location-data",
+        "table.table",
+        "map.map",
+        "modules.modules",
+        "large-image-with-text.image-with-text-constrained",
+        "large-image-with-text.image-with-text",
+        "other-services.other-services",
+        "overview.overview-table",
+        "overview.overview",
+        "partner-directory.partner-directory",
+        "services.services",
+        "partners.partners",
+        "reindeership-awards.reindeership-awards",
+        "procedure.support",
+        "single-video-section.single-video-section",
+        "procedure.procedure-table",
+        "procedure.procedure-with-rich-text",
+        "procedure.procedure",
+        "text-and-image.text-and-image",
+        "text-and-image.text-and-image-small-image",
+        "text.text",
+        "timeline-block.timeline-block",
+        "timeline-carousel.timeline-carousel",
+        "team-grid.team-grid",
+        "vlog.plural-vlog",
+        "value-list.value-list",
+        "vlog.vlog-images",
+        "vlog.vlog-video",
+        "vlog.vlog",
+        "video-section.video-section",
+        "makes-different.makes-different"
+      ]
+    }
+  }
+}

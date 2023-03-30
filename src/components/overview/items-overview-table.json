@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_overview_items_overview_tables",
+  "info": {
+    "displayName": "Items Overview Table"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "richtext"
+    },
+    "ciab_45t": {
+      "type": "richtext"
+    },
+    "ciab_100t": {
+      "type": "richtext"
+    },
+    "ciab_250t": {
+      "type": "richtext"
+    }
+  }
+}

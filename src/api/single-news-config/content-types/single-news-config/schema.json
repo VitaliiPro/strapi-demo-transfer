@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "single_news_configs",
+  "info": {
+    "singularName": "single-news-config",
+    "pluralName": "single-news-configs",
+    "displayName": "Single News Config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "related_posts_title": {
+      "type": "string"
+    }
+  }
+}

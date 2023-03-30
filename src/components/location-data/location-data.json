@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_location_data_location_data_s",
+  "info": {
+    "displayName": "Location Data ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "region": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Location Data",
+      "type": "component",
+      "repeatable": true,
+      "component": "location-data.items-location-data"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_image_and_list_image_and_lists",
+  "info": {
+    "displayName": "Image And List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "items": {
+      "displayName": "Items Image And List",
+      "type": "component",
+      "repeatable": true,
+      "component": "image-and-list.items-image-and-list"
+    }
+  }
+}

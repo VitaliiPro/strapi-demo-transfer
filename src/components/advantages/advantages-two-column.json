@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_advantages_advantages_two_columns",
+  "info": {
+    "displayName": "Advantages Two Column List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": ["light", "white"]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "advantages.items-advantages"
+    }
+  }
+}

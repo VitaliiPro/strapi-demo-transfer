@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_other_services_items_other_services",
+  "info": {
+    "displayName": "Items Other Services"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

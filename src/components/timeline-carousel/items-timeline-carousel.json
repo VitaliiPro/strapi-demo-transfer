@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_timeline_carousel_items_timeline_carousels",
+  "info": {
+    "displayName": "Items Timeline Carousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_award_plural_awards",
+  "info": {
+    "displayName": "Awards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "award": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::awards.awards"
+    }
+  }
+}

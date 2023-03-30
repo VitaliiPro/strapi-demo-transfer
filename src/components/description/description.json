@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_description_descriptions",
+  "info": {
+    "displayName": "Description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": ["white", "accent"]
+    },
+    "font_size": {
+      "type": "enumeration",
+      "enum": ["medium", "small"]
+    },
+    "line_height": {
+      "type": "enumeration",
+      "enum": ["medium", "large"]
+    }
+  }
+}

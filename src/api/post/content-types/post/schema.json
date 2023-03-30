@@ -1,0 +1,121 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "date": {
+      "required": true,
+      "type": "date"
+    },
+    "blog_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-tag.blog-tag"
+    },
+    "meta_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "about.about",
+        "advantages.advantages",
+        "advantages.advantages-two-column",
+        "advantages.advantages-image-left",
+        "advantages.advantages-image-large",
+        "benefits.benefits",
+        "call-to-action.call-to-action-align-right",
+        "call-to-action.call-to-action-full-width",
+        "call-to-action.call-to-action-two-backgrounds",
+        "call-to-action.call-to-action-with-images",
+        "call-to-action.call-to-action",
+        "bordered-image.bordered-image",
+        "carousel.carousel",
+        "carousel.carousel-without-card",
+        "description.description",
+        "spaces.spaces",
+        "features.features",
+        "feature-description.description-bordered-background",
+        "feature-description.description-list",
+        "feature-description.feature-description",
+        "horizontal-cards.horizontal-cards",
+        "image-and-list.image-and-list",
+        "image-slider.image-slider",
+        "large-image-with-text.image-with-text-constrained",
+        "large-image-with-text.image-with-text",
+        "items-row.items-row",
+        "job-openings.job-openings",
+        "map.map",
+        "table.table",
+        "modules.modules",
+        "other-services.other-services",
+        "overview.overview-table",
+        "overview.overview",
+        "partner-directory.partner-directory",
+        "partners.partners",
+        "text-and-image.text-and-image",
+        "text-and-image.text-and-image-small-image",
+        "team-grid.team-grid",
+        "timeline-block.timeline-block",
+        "timeline-carousel.timeline-carousel",
+        "services.services",
+        "video-section.video-section",
+        "value-list.value-list",
+        "makes-different.makes-different",
+        "backup-calculator.backup-calculator",
+        "award.plural-awards",
+        "text.text",
+        "cost-comparison.cost-comparison",
+        "client-testimony.client-testimony",
+        "injected-html.injected-html-jot-form",
+        "injected-html.injected-html",
+        "reindeership-awards.reindeership-awards",
+        "vlog.plural-vlog",
+        "procedure.support",
+        "single-video-section.single-video-section"
+      ]
+    }
+  }
+}

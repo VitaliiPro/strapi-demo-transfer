@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "theme_configs",
+  "info": {
+    "singularName": "theme-config",
+    "pluralName": "theme-configs",
+    "displayName": "Theme Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "colors": {
+      "displayName": "Colors",
+      "type": "component",
+      "repeatable": false,
+      "component": "colors.colors"
+    }
+  }
+}

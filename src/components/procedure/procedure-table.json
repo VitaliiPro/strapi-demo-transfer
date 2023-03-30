@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_procedure_procedure_tables",
+  "info": {
+    "displayName": "Support Procedure Table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Procedure Table",
+      "type": "component",
+      "repeatable": true,
+      "component": "procedure.items-procedure-table"
+    }
+  }
+}

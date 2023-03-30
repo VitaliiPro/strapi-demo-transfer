@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_injected_html_injected_html_jot_forms",
+  "info": {
+    "displayName": "Injected Html Jot Form"
+  },
+  "options": {},
+  "attributes": {
+    "form_id": {
+      "type": "string"
+    },
+    "html": {
+      "type": "richtext"
+    }
+  }
+}

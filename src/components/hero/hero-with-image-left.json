@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_hero_hero_with_image_lefts",
+  "info": {
+    "displayName": "Hero With Image Left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_align": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "bottom"
+      ]
+    }
+  }
+}

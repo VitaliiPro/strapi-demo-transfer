@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_abouts",
+  "info": {
+    "displayName": "About"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_value_list_items_value_lists",
+  "info": {
+    "displayName": "Items Value List"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

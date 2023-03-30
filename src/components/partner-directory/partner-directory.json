@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_partner_directory_partner_directories",
+  "info": {
+    "displayName": "Partner Directory",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Partner Directory",
+      "type": "component",
+      "repeatable": true,
+      "component": "partner-directory.items-partner-directory"
+    }
+  }
+}

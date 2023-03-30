@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plural_numbers",
+  "info": {
+    "singularName": "numbers",
+    "pluralName": "plural-numbers",
+    "displayName": "Contact Numbers"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "displayName": "Numbers",
+      "type": "component",
+      "repeatable": true,
+      "component": "numbers.numbers"
+    }
+  }
+}

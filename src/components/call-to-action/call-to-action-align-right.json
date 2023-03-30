@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_call_to_action_call_to_action_align_rights",
+  "info": {
+    "displayName": "Call To Action Constrained Width Align Right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "richtext"
+    },
+    "inner_background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

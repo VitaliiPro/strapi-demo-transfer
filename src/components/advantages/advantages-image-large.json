@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_advantages_advantages_image_larges",
+  "info": {
+    "displayName": "Advantages Large Image Two Backgrounds",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "items_title": {
+      "type": "richtext"
+    },
+    "items_background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "advantages.items-advantages"
+    }
+  }
+}

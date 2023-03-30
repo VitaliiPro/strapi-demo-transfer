@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_team_grid_team_grids",
+  "info": {
+    "displayName": "Team Grid"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Team Grid",
+      "type": "component",
+      "repeatable": true,
+      "component": "team-grid.items-team-grid"
+    }
+  }
+}

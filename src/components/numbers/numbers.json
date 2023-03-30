@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_numbers_numbers",
+  "info": {
+    "displayName": "Numbers"
+  },
+  "options": {},
+  "attributes": {
+    "office": {
+      "type": "string"
+    },
+    "numbers": {
+      "type": "richtext"
+    }
+  }
+}

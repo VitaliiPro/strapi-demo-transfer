@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_call_to_action_call_to_actions",
+  "info": {
+    "displayName": "Call To Action",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "richtext"
+    },
+    "second_button_label": {
+      "type": "string"
+    },
+    "second_button_link": {
+      "type": "richtext"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "outer_vertical_paddings": {
+      "type": "boolean"
+    }
+  }
+}

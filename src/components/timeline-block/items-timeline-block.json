@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_timeline_block_items_timeline_blocks",
+  "info": {
+    "displayName": "Items Timeline Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_description": {
+      "type": "richtext"
+    }
+  }
+}

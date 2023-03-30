@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_job_openings_items_job_openings",
+  "info": {
+    "displayName": "Items Job Openings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "string"
+    },
+    "work_schedule": {
+      "type": "enumeration",
+      "enum": [
+        "Full Time",
+        "Part Time"
+      ]
+    },
+    "link": {
+      "type": "richtext"
+    }
+  }
+}

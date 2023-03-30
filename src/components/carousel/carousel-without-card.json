@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_carousel_carousel_without_cards",
+  "info": {
+    "displayName": "Carousel Without Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "items": {
+      "displayName": "Items Carousel Without Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "carousel.items-carousel-without-card"
+    }
+  }
+}

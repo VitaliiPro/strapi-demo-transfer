@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_job_openings_job_openings",
+  "info": {
+    "displayName": "Job Openings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "job-openings.items-job-openings"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plural_location_data",
+  "info": {
+    "singularName": "location-data",
+    "pluralName": "plural-location-data",
+    "displayName": "Location Data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "location-data.location-data"
+    }
+  }
+}

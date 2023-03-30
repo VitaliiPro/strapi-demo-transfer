@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_procedure_procedure_with_rich_texts",
+  "info": {
+    "displayName": "Support Procedure Table With Rich Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "support_channel": {
+      "type": "richtext"
+    },
+    "room": {
+      "type": "string"
+    },
+    "technology": {
+      "type": "string"
+    }
+  }
+}

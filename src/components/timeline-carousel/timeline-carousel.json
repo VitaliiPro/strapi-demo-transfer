@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_timeline_carousel_timeline_carousels",
+  "info": {
+    "displayName": "Timeline Carousel"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Timeline Carousel",
+      "type": "component",
+      "repeatable": true,
+      "component": "timeline-carousel.items-timeline-carousel"
+    }
+  }
+}

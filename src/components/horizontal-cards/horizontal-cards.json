@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_horizontal_cards_horizontal_cards",
+  "info": {
+    "displayName": "Horizontal Cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Horizontal Cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "horizontal-cards.items-horizontal-cards"
+    }
+  }
+}

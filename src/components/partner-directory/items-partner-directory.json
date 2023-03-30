@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_partner_directory_items_partner_directories",
+  "info": {
+    "displayName": "Items Partner Directory",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "organization_name": {
+      "type": "richtext"
+    },
+    "contact_information": {
+      "type": "richtext"
+    },
+    "services_and_products": {
+      "type": "richtext"
+    },
+    "website": {
+      "type": "richtext"
+    },
+    "address": {
+      "type": "richtext"
+    },
+    "state_and_country": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_procedure_procedures",
+  "info": {
+    "displayName": "Support Procedure",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Procedure ",
+      "type": "component",
+      "repeatable": true,
+      "component": "procedure.items-procedure"
+    }
+  }
+}

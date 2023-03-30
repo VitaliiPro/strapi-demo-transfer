@@ -1,0 +1,121 @@
+{
+  "kind": "collectionType",
+  "collectionName": "single_news_plural",
+  "info": {
+    "singularName": "single-news",
+    "pluralName": "single-news-plural",
+    "displayName": "Single News",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "news_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::news-tag.news-tag"
+    },
+    "meta_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "about.about",
+        "advantages.advantages",
+        "advantages.advantages-two-column",
+        "advantages.advantages-image-left",
+        "advantages.advantages-image-large",
+        "benefits.benefits",
+        "bordered-image.bordered-image",
+        "call-to-action.call-to-action-align-right",
+        "call-to-action.call-to-action-full-width",
+        "call-to-action.call-to-action-two-backgrounds",
+        "call-to-action.call-to-action-with-images",
+        "call-to-action.call-to-action",
+        "carousel.carousel",
+        "carousel.carousel-without-card",
+        "description.description",
+        "feature-description.description-bordered-background",
+        "feature-description.description-list",
+        "feature-description.feature-description",
+        "features.features",
+        "horizontal-cards.horizontal-cards",
+        "image-slider.image-slider",
+        "image-and-list.image-and-list",
+        "injected-html.injected-html-jot-form",
+        "injected-html.injected-html",
+        "items-row.items-row",
+        "job-openings.job-openings",
+        "large-image-with-text.image-with-text-constrained",
+        "large-image-with-text.image-with-text",
+        "map.map",
+        "modules.modules",
+        "other-services.other-services",
+        "overview.overview",
+        "overview.overview-table",
+        "partner-directory.partner-directory",
+        "partners.partners",
+        "services.services",
+        "text-and-image.text-and-image",
+        "text-and-image.text-and-image-small-image",
+        "text.text",
+        "team-grid.team-grid",
+        "timeline-carousel.timeline-carousel",
+        "timeline-block.timeline-block",
+        "value-list.value-list",
+        "video-section.video-section",
+        "award.plural-awards",
+        "backup-calculator.backup-calculator",
+        "makes-different.makes-different",
+        "client-testimony.client-testimony",
+        "cost-comparison.cost-comparison",
+        "spaces.spaces",
+        "table.table",
+        "reindeership-awards.reindeership-awards",
+        "vlog.plural-vlog",
+        "procedure.support",
+        "single-video-section.single-video-section"
+      ]
+    }
+  }
+}

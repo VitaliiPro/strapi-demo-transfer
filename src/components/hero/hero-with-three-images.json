@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_hero_hero_with_three_images",
+  "info": {
+    "displayName": "Hero With Three Images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "second_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "third_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_image_slider_items_image_sliders",
+  "info": {
+    "displayName": "Items Image Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

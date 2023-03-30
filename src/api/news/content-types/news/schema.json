@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_plural",
+  "info": {
+    "singularName": "news",
+    "pluralName": "news-plural",
+    "displayName": "News",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid",
+      "required": true,
+      "default": "news"
+    },
+    "title": {
+      "type": "string"
+    },
+    "featured_posts_title": {
+      "type": "string"
+    },
+    "posts_list_title": {
+      "type": "string"
+    },
+    "blog_hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.blog-hero"
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "meta_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_text_and_image_text_and_images",
+  "info": {
+    "displayName": "Text And Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

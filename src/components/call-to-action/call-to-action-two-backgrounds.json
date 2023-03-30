@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_call_to_action_call_to_action_two_backgrounds",
+  "info": {
+    "displayName": "Call To Action Two Backgrounds Content Center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "richtext"
+    },
+    "scroll_id": {
+      "type": "string"
+    },
+    "outer_background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "outer_vertical_paddings": {
+      "type": "boolean"
+    }
+  }
+}

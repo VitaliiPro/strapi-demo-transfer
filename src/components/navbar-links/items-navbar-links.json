@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_navbar_links_items_navbar_links",
+  "info": {
+    "displayName": "Items Navbar Links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link_label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "link_url": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "custom_url": {
+      "type": "string"
+    }
+  }
+}

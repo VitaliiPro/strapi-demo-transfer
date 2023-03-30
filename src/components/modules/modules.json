@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_modules_modules",
+  "info": {
+    "displayName": "Modules"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": [
+        "accent",
+        "white"
+      ]
+    },
+    "items": {
+      "displayName": "Items Modules",
+      "type": "component",
+      "repeatable": true,
+      "component": "modules.items-modules"
+    }
+  }
+}

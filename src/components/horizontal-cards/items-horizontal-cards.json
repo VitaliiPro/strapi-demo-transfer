@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_horizontal_cards_items_horizontal_cards",
+  "info": {
+    "displayName": "Items Horizontal Cards"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

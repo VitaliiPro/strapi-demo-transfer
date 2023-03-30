@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_reindeership_awards_items_reindeership_awards",
+  "info": {
+    "displayName": "Items Reindeership Awards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

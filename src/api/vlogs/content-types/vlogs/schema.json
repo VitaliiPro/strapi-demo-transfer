@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plural_vlogs",
+  "info": {
+    "singularName": "vlogs",
+    "pluralName": "plural-vlogs",
+    "displayName": "Vlogs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vlog": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vlog.vlog"
+    },
+    "vlog_video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vlog.vlog-video"
+    },
+    "vlog_images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vlog.vlog-images"
+    }
+  }
+}

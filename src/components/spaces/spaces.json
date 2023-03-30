@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_spaces_spaces",
+  "info": {
+    "displayName": "Facility Spaces",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "facility_space": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::facility-spaces.facility-spaces"
+    }
+  }
+}

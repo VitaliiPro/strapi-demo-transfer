@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_image_and_list_items_image_and_lists",
+  "info": {
+    "displayName": "Items Image And List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

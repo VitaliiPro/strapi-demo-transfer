@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_image_slider_image_sliders",
+  "info": {
+    "displayName": "Image Slider"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Image Slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "image-slider.items-image-slider"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_advantages_items_advantages",
+  "info": {
+    "displayName": "Items Advantages"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

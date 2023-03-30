@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "post_configs",
+  "info": {
+    "singularName": "post-config",
+    "pluralName": "post-configs",
+    "displayName": "Post Config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "related_posts_title": {
+      "type": "string"
+    }
+  }
+}

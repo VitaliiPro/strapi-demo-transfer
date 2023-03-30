@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_reindeership_awards_reindeership_awards",
+  "info": {
+    "displayName": "Reindeership Awards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "items": {
+      "displayName": "Items Reindeership Awards",
+      "type": "component",
+      "repeatable": true,
+      "component": "reindeership-awards.items-reindeership-awards"
+    }
+  }
+}

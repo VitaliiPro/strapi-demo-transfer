@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_table_tables",
+  "info": {
+    "displayName": "Location Table"
+  },
+  "options": {},
+  "attributes": {
+    "location_datum": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::location-data.location-data"
+    }
+  }
+}

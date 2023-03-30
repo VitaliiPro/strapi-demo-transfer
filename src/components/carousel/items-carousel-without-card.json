@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_carousel_items_carousel_without_cards",
+  "info": {
+    "displayName": "Items Carousel Without Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

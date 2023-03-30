@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_overview_overview_tables",
+  "info": {
+    "displayName": "Overview Table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Overview Table",
+      "type": "component",
+      "repeatable": true,
+      "component": "overview.items-overview-table"
+    }
+  }
+}

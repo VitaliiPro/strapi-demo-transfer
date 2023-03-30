@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_call_to_action_call_to_action_full_widths",
+  "info": {
+    "displayName": "Call To Action Full Width Large Title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "richtext"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "is_scroll_target": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_cost_comparison_cost_comparisons",
+  "info": {
+    "displayName": "Cost Comparison Chart"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_label": {
+      "type": "text"
+    },
+    "items": {
+      "displayName": "Items Cost Comparison",
+      "type": "component",
+      "repeatable": true,
+      "component": "cost-comparison.items-cost-comparison"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_carousel_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "items": {
+      "displayName": "Items Carousel",
+      "type": "component",
+      "repeatable": true,
+      "component": "carousel.items-carousel"
+    }
+  }
+}

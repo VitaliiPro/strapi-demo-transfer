@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_vlog_items_vlog_videos",
+  "info": {
+    "displayName": "Items Vlog Video"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

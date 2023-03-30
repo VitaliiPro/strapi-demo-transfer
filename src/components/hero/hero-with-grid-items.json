@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_hero_hero_with_grid_items",
+  "info": {
+    "displayName": "Hero With Grid Items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "second_button_label": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Items Hero With Grid Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "hero.items-hero-with-grid-items"
+    }
+  }
+}

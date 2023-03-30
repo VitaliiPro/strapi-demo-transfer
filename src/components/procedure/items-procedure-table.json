@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_procedure_items_procedure_tables",
+  "info": {
+    "displayName": "Items Procedure Table"
+  },
+  "options": {},
+  "attributes": {
+    "severity": {
+      "type": "string"
+    },
+    "target_response": {
+      "type": "string"
+    },
+    "demo_evaluation": {
+      "type": "string"
+    }
+  }
+}

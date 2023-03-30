@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_procedure_supports",
+  "info": {
+    "displayName": "Support"
+  },
+  "options": {},
+  "attributes": {
+    "contact_support": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contact-support.contact-support"
+    }
+  }
+}

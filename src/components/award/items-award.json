@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_award_items_award_s",
+  "info": {
+    "displayName": "Items Award "
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

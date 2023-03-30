@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_facility_facilities",
+  "info": {
+    "displayName": "Facility"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Items Facility",
+      "type": "component",
+      "repeatable": true,
+      "component": "facility.items-facility"
+    }
+  }
+}

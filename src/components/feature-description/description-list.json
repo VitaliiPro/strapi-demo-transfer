@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_feature_description_description_lists",
+  "info": {
+    "displayName": "Feature Description List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "items": {
+      "displayName": "Items Description List",
+      "type": "component",
+      "repeatable": true,
+      "component": "feature-description.items-description-list"
+    }
+  }
+}

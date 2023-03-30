@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_facility_facility_partnerships",
+  "info": {
+    "displayName": "Facility Partnership"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Items Facility Partnership",
+      "type": "component",
+      "repeatable": true,
+      "component": "facility.items-facility-partnership"
+    }
+  }
+}

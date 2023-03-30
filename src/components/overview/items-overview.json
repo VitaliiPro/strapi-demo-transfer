@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_overview_items_overviews",
+  "info": {
+    "displayName": "Items Overview"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "second_description": {
+      "type": "richtext"
+    }
+  }
+}

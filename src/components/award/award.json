@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_award_awards",
+  "info": {
+    "displayName": "Award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "title_icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "large_image_first": {
+      "type": "boolean",
+      "default": true
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "separator": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "items": {
+      "displayName": "Items Award ",
+      "type": "component",
+      "repeatable": true,
+      "component": "award.items-award"
+    }
+  }
+}

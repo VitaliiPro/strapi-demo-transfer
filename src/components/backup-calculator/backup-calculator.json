@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_backup_calculator_backup_calculators",
+  "info": {
+    "displayName": "Backup Calculator"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "button_label": {
+      "type": "text"
+    }
+  }
+}

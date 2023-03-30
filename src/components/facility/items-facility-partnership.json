@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_facility_items_facility_partnerships",
+  "info": {
+    "displayName": "Items Facility Partnership"
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "string"
+    }
+  }
+}

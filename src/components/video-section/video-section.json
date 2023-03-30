@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_video_section_video_sections",
+  "info": {
+    "displayName": "Video Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "items": {
+      "displayName": "Items Video Section",
+      "type": "component",
+      "repeatable": true,
+      "component": "video-section.items-video-section"
+    }
+  }
+}

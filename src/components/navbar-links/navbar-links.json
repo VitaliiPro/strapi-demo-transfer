@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_navbar_links_navbar_links_s",
+  "info": {
+    "displayName": "Navbar Links "
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "links": {
+      "displayName": "Items Navbar Links",
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar-links.items-navbar-links"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_vlog_vlogs",
+  "info": {
+    "displayName": "Vlog"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Items Vlog",
+      "type": "component",
+      "repeatable": true,
+      "component": "vlog.items-vlog"
+    }
+  }
+}

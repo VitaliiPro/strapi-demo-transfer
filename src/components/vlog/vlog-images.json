@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_vlog_vlog_images",
+  "info": {
+    "displayName": "Vlog With Images"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "main_title_icon": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "main_title": {
+      "type": "richtext"
+    },
+    "main_description": {
+      "type": "richtext"
+    },
+    "subheading_icon": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "main_image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "title_icon": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

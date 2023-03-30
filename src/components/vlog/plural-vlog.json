@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_vlog_plural_vlogs",
+  "info": {
+    "displayName": "Vlogs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "vlog": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::vlogs.vlogs"
+    }
+  }
+}

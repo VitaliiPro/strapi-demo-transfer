@@ -1,0 +1,108 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid",
+      "required": true,
+      "targetField": "title"
+    },
+    "title": {
+      "type": "string"
+    },
+    "section_navigation": {
+      "type": "boolean",
+      "default": false
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "meta_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "hero.hero",
+        "hero.blog-hero",
+        "hero.hero-with-grid-items",
+        "hero.hero-with-image-left",
+        "hero.hero-with-image-right",
+        "hero.hero-with-three-images",
+        "call-to-action.call-to-action-align-right",
+        "call-to-action.call-to-action",
+        "call-to-action.call-to-action-full-width",
+        "call-to-action.call-to-action-with-images",
+        "call-to-action.call-to-action-two-backgrounds",
+        "image-and-list.image-and-list",
+        "carousel.carousel",
+        "carousel.carousel-without-card",
+        "image-slider.image-slider",
+        "partners.partners",
+        "services.services",
+        "text-and-image.text-and-image",
+        "text-and-image.text-and-image-small-image",
+        "video-section.video-section",
+        "value-list.value-list",
+        "team-grid.team-grid",
+        "job-openings.job-openings",
+        "description.description",
+        "large-image-with-text.image-with-text",
+        "large-image-with-text.image-with-text-constrained",
+        "partner-directory.partner-directory",
+        "reindeership-awards.reindeership-awards",
+        "advantages.advantages-image-large",
+        "advantages.advantages-image-left",
+        "advantages.advantages-two-column",
+        "advantages.advantages",
+        "features.features",
+        "benefits.benefits",
+        "modules.modules",
+        "bordered-image.bordered-image",
+        "client-testimony.client-testimony",
+        "timeline-block.timeline-block",
+        "timeline-carousel.timeline-carousel",
+        "backup-calculator.backup-calculator",
+        "cost-comparison.cost-comparison",
+        "feature-description.description-bordered-background",
+        "feature-description.description-list",
+        "feature-description.feature-description",
+        "makes-different.makes-different",
+        "about.about",
+        "items-row.items-row",
+        "horizontal-cards.horizontal-cards",
+        "other-services.other-services",
+        "text.text",
+        "injected-html.injected-html-jot-form",
+        "injected-html.injected-html",
+        "single-video-section.single-video-section",
+        "overview.overview-table",
+        "overview.overview",
+        "award.plural-awards",
+        "procedure.procedure",
+        "procedure.procedure-with-rich-text",
+        "procedure.procedure-table",
+        "table.table",
+        "map.map",
+        "spaces.spaces",
+        "procedure.support",
+        "vlog.plural-vlog"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_supports",
+  "info": {
+    "singularName": "contact-support",
+    "pluralName": "contact-supports",
+    "displayName": "Contact Support"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "items_procedure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "procedure.procedure"
+    },
+    "procedure_table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "procedure.procedure-table"
+    },
+    "procedure_rich_text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "procedure.procedure-with-rich-text"
+    }
+  }
+}

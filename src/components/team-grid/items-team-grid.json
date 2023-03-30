@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_team_grid_items_team_grids",
+  "info": {
+    "displayName": "Items Team Grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "full_description": {
+      "type": "richtext"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_hero_items_hero_with_grid_items",
+  "info": {
+    "displayName": "Items Hero With Grid Items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_hero_hero_with_image_rights",
+  "info": {
+    "displayName": "Hero With Image Right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

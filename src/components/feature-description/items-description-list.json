@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_feature_description_items_description_lists",
+  "info": {
+    "displayName": "Items Description List"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

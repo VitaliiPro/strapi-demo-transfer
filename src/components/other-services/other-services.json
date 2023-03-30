@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_other_services_other_services",
+  "info": {
+    "displayName": "Other Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "items": {
+      "displayName": "Items Other Services",
+      "type": "component",
+      "repeatable": true,
+      "component": "other-services.items-other-services"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_overview_overview_s",
+  "info": {
+    "displayName": "Overview ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "items": {
+      "displayName": "Items Overview",
+      "type": "component",
+      "repeatable": true,
+      "component": "overview.items-overview"
+    }
+  }
+}

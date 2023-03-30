@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_single_video_section_single_video_sections",
+  "info": {
+    "displayName": "Single Video Section"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
